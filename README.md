@@ -1,0 +1,13 @@
+INSTRUCTIONS
+
+COUNTER URL:
+
+http://project.jackiehuang.ca/test/
+
+
+RUN THOESE COMMANDS:
+
+----------------------
+NPM INSTALL -G WEBPACK WEBPACK-DEV-SERVER
+NPM INSTALL -G GULP
+NPM INSTALL
