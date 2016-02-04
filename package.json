@@ -1,0 +1,61 @@
+{
+  "name": "sheridanproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils",
+      "<rootDir>/node_modules/fbjs"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^4.1.6",
+    "babel-jest": "^6.0.1",
+    "babel-loader": "^6.2.1",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "bootstrap": "^3.3.6",
+    "bootstrap-webpack": "0.0.5",
+    "classnames": "^2.2.3",
+    "css-loader": "^0.23.1",
+    "es5-shim": "^4.5.2",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0",
+    "eslint-loader": "^1.2.0",
+    "eslint-plugin-react": "^3.14.0",
+    "expose-loader": "^0.7.1",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-util": "^3.0.7",
+    "history": "^1.17.0",
+    "jest-cli": "^0.8.2",
+    "jquery": "^1.12.0",
+    "jwt-decode": "^1.5.1",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "react": "^0.14.5",
+    "react-addons-test-utils": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "react-redux": "^4.0.6",
+    "react-router": "2.0.0-rc5",
+    "react-router-redux": "^2.1.0",
+    "redux": "^3.0.5",
+    "redux-logger": "^2.3.2",
+    "redux-thunk": "^1.0.3",
+    "style-loader": "^0.13.0",
+    "superagent": "^1.7.1",
+    "superagent-no-cache": "^0.1.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
